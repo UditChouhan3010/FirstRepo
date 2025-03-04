@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainpage {
+  height: 100vh;
+  background-color: #ffffff;
+  position: inherit;
+}
+
+.landingContainer img {
+  /* position: inherit; */
+  padding: 2vw 2vw;
+  margin-top: 50px;
+  width: 100vw;
+  height: 45vh;
+  object-fit: contain;
+}
+.content {
+  padding: 10%;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.content1 h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 10px 10px;
+}
+.content1 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 15px 10px;
+}
+.content1 button {
+  display: flex;
+  justify-content: center;
+  padding: 10px 30px;
+  margin-top: 25px;
+  margin-left: 25vw;
+
+  background-color: #0b7ff2;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.content2,.pricingContainer{
+  margin-left: 10px;
+  padding: 2%;
+  background-color: #ffffff;
+  color: rgb(84, 81, 81);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content2 h1 {
+  font-size: 2.2rem;
+  font-weight: 300;
+  padding-bottom: 40px;
+}
+
+.content2 ul {
+  list-style-type: none;
+  padding: 10px 2px;
+  white-space: wrap;
+  gap: 10px;
+}
+
+.content2 ul li {
+  font-size: 1.2rem;
+  padding-bottom: 20px;
+}
+
+.content2 p {
+  font-size: 1.2rem;
+  padding-bottom: 20px;
+}
+
+.content-2{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ecosystemContainer img{
+    /* position: inherit; */
+    /* padding: 2vw 2vw; */
+    padding-left: 25px;
+    margin-top: 5px;
+    width: 90vw;
+    height: 100vh;
+    object-fit: contain;
+  }
+
+.ecosystemContainer a{
+    padding: 10px 5px;
+    margin-left: 18vw;
+    color: #0b7ff2;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ecosystemContainer a:hover{
+    color: #192a3b;
+}
+
+.presslogoContainer img{
+    margin-top: 5px;  
+    width: 96vw;
+    height: 20vh;
+    object-fit: contain;
+    max-width: fit-content;
+  }
+
+.pricingContainer h1 , .lastContainer h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+
+.pricingContainer p , .lastContainer p {
+  font-size: 1.1rem;
+  padding-bottom: 18px;
+}
+
+#pricingMenu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:10px;
+  width: 12%;
+  font-size: 10px;
+}
+#pricingMenu p {
+  /* margin: 0px 20px;  */
+  text-align:left;
+  width: 100%;
+  }
+
+.pricingContainer a , .lastContainer a{
+  padding: 10px 5px;
+  /* margin-left: 18vw; */
+  color: #0b7ff2;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pricingContainer  a,.lastContainer a:hover{
+  color: #192a3b;
+}
+.index-educationContainer{  margin-top: 50px;
+}
+.index-educationContainer img{
+  width: 63%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  display: flex;
+  margin: auto;
+  max-width: fit-content;
+}
+
+.lastContainer h1{
+  color: rgba(6, 5, 5, 0.736);
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
+.lastContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;  
+  padding-left: 15px;
+  box-shadow:0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.lastContainer a{
+  margin: 10px 0px 10px;
+}
+.lastContainer button{
+  margin-top: 25px;
+  width: 200px;
+  height: 45px;
+  background-color: #0b7ff2;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.SignUp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.SignUp h1{
+  font-size: 2.1rem;
+}
+button:hover{
+    background-color: #192a3b;
+}
+
+footer .logo img{
+ width: 150px;
+ padding-bottom:20px ;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: space-around;
+  padding: 20px 0px 0px 20px;
+}
+.footer a{
+ text-decoration: none;
+ color: grey;
+}
+.footer a:hover{
+  color: #0b7ff2;
+}
+
+.whatsapp-logo {
+      width: 23px;
+}
+.columnsthree .nav-head{
+  font-size: 1.1rem;
+  font-weight: 500;
+padding: 60px 0px 20px 0px;
+}
+.columnsthree li{
+  font-size: 1rem;
+}
+footer pre{
+  font-size: 14px;
+  /* white-space:unset; */
+}
